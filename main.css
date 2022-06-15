@@ -1,0 +1,18 @@
+button{
+    border-radius: 15px ;
+    height: 30px ;
+    width: 30px ;
+    font-size: 1em ;
+    color: darkgray;
+    background-color: rgb(26, 22, 22);
+     
+  }
+body{
+    background-color: rgb(26, 22, 22);
+    font: 1em sans-serif;
+    color:aliceblue
+}
+
+body {
+    text-align: center;
+  }
