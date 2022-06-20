@@ -1,28 +1,31 @@
-
-
+body{
+	background-color: darkgrey;
+}
 
 .container{
-    width: 40%;
-    height: 40%;
+
+    width: 412px;
+    height: 416px;
     margin: auto;
     background-color: #181E27;
-    padding: auto;
-    border-radius: 15px;
-    text-align: center; 
-    
-
-}
-.box-1{
-    background-color: rgba(0, 0, 0, 0);
-    margin: auto;
-
-    
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 1.6em;
+ }
+form{
+	float: center;
 }
 h2{
-    color: white;
-    padding-top: 50px;
-
+	color: white;
 }
+p{
+	color: grey;
+	line-height: 1.6em;
+	font-size: normal;
+}
+
+	
 button{
 
     border-radius: 15px;
@@ -31,8 +34,25 @@ button{
 button:hover{
     color: white;
 }
-p{
-    color: gray;
-}
+ 
+ 
+ input{
+ 	border-radius: 15px;
+ 	background-color: orange;
+ }
+ .circletag{
+ 	width: 10px;
+    height: 10px;
+    padding: 7px;
+    border-radius: 50%;
+    background-color: grey;
+    
+ }
+ 
+ 	.circletag img{
+   
+    text-align: center;
+    display: block;
 
+   }
 
