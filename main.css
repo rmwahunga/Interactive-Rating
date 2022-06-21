@@ -1,58 +1,72 @@
 body{
-	background-color: darkgrey;
+	
+	background-color: black;
+	margin-top: 50PX;
 }
 
-.container{
-
+ .container{
     width: 412px;
-    height: 416px;
+    height: 412px;
     margin: auto;
     background-color: #181E27;
-    padding: 20px;
+    padding: 40px 20px;
     border-radius: 20px;
     text-align: center;
     line-height: 1.6em;
  }
 form{
 	float: center;
+	align-content: center;
 }
 h2{
 	color: white;
+	padding-top: 75px;
 }
 p{
+	display: flex;
+	justify-content: center;
 	color: grey;
-	line-height: 1.6em;
+	line-height: 2em;
 	font-size: normal;
 }
 
 	
 button{
-
-    border-radius: 15px;
+	width: 40PX;
+	height: 40PX;
+    border-radius: 20px;
     background-color: gray;
 }
 button:hover{
-    color: white;
+    background-color: white;
 }
- 
- 
+ button:active{
+ 	background-color: orangered;
+ }
+
  input{
+ 	margin-top: 10px;
+ 	border: none;
+ 	padding: 7px 90px;
  	border-radius: 15px;
  	background-color: orange;
  }
  .circletag{
- 	width: 10px;
-    height: 10px;
-    padding: 7px;
-    border-radius: 50%;
-    background-color: grey;
-    
+ 	width: 30PX;
+ 	height: 30PX;
+ 	border-radius: 50%;
+ 	background-color: grey;
  }
- 
- 	.circletag img{
-   
-    text-align: center;
-    display: block;
+ .circletag: img{
+ 	display: flex-center;
+ }
 
-   }
+ .center{
+
+ 	display: flex;
+	justify-content: center;
+ }
+ img{
+ 	padding: 4px 4px;
+ }
 

@@ -1,0 +1,32 @@
+.img-center{
+	position: absotute;
+	float: center;
+}
+.container{
+	width: 412px;
+    height: 412px;
+    margin: auto;
+    background-color: #181E27;
+    padding: 40px 20px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 1.6em;
+}
+h4{
+    color: orangered;
+}
+p{
+    color: grey;
+}
+
+h2{
+	color: white;
+	margin-top: 50px;
+}
+h4{
+	margin-top: 5px;
+ 	padding:auto;
+ 	border-radius: 10px;
+ 	background-color: #2f4b4f8e;
+    
+}
