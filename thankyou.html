@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <title>Thank you note</title>
+    </head>
     <body>
     <div class="container">
     	<div class="igm-center">
@@ -17,13 +18,11 @@
 
     <div class="box-1">
 
-    	<h4>You have selected a 4 out of 5
+    	<h4 class="thanks">You have selected a 4 out of 5
         </h4>
-    	</div>
+    </div>
 
 
-   
-    
     <h2>Thank you!</h2>
 
 
@@ -31,8 +30,14 @@
     	<p>Thank you, we appreciate taking the time togive <br>rating. If you ever need more support, <br>dont hesitate to get in touch!</p>
     </div>
     </div>
+    <script> 
+    rating=window.locationSearch
+    let h4text=document.querySelector('thanks');
+    h4text.innertext='You have selected ${rating.toString().replace (.?rate',')} out of 5';
+    </script>
+
     </body>
-    </head>
+    
     </html>
 
 

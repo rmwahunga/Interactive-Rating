@@ -28,6 +28,7 @@ p{
 	color: grey;
 	line-height: 2em;
 	font-size: normal;
+   text-align: left;
 }
 
 	
@@ -36,6 +37,7 @@ button{
 	height: 40PX;
     border-radius: 20px;
     background-color: gray;
+    border: none;
 }
 button:hover{
     background-color: white;
@@ -43,13 +45,16 @@ button:hover{
  button:active{
  	background-color: orangered;
  }
+ button:visited{
+	background-color: coral;
+ }
 
  input{
  	margin-top: 10px;
  	border: none;
  	padding: 7px 90px;
  	border-radius: 15px;
- 	background-color: orange;
+ 	background-color: orangered;
  }
  .circletag{
  	width: 30PX;
