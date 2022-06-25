@@ -7,7 +7,8 @@ rateBtn.forEach(Btn=>{
     })
 })
 
-document.querySelector('#submit').addEventListener(click, ()=>{
+
+document.querySelector('submit').addEventListener(click, ()=>{
     const ratinglength=localStorage.length()
     if (ratinglength>0){
         window.Location.href='./thankyou.html'
