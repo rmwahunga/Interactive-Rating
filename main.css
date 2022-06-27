@@ -52,9 +52,14 @@ button:hover{
  input{
  	margin-top: 10px;
  	border: none;
- 	padding: 7px 90px;
+ 	padding: 7px 130px;
  	border-radius: 15px;
  	background-color: orangered;
+ }
+
+ input:hover{
+	color: antiquewhite;
+	background-color: darkgoldenrod;
  }
  .circletag{
  	width: 30PX;
