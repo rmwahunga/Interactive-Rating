@@ -18,7 +18,7 @@
 
     <div class="box-1">
 
-    	<h4 class="thanks">You have selected 4 out of 5
+    	<h4 class="thanks" id="Rt1">You have selected 4 out of 5
         </h4>
     </div>
 
@@ -30,14 +30,16 @@
     	<p>Thank you, we appreciate taking the time togive <br>rating. If you ever need more support, <br>dont hesitate to get in touch!</p>
     </div>
     </div>
-    <script> 
-        rating=localStorage.getItem("rate")
-        let h4Text=document.querySelector('thanks');
-        h4Text.innerText = 'You have selected  ${rating.toString().replace('?rate=  ')} out of 5'
-
-    </script>
-
+        
+    <script>
+       // const rating=localStorage.getItem("rate");
+       // let h4Text=document.querySelector("thanks")
+       // h4Text.innerText="You have selected" + {'rating'} + "out of 5"
+       const rating= "You have selected " + localStorage.getItem("rate ") +  "out of 5";
+      document.getElementById("Rt1").innerText = rating; 
+     </script>
   </body>
+  
 </html>   
 
 

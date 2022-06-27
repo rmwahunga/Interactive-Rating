@@ -5,10 +5,10 @@ rateBtn.forEach(Btn=>{
     Btn.addEventListener("click",()=>{
     localStorage.setItem("rate",Btn.value)    
     })
-})
+});
 
 
-document.querySelector('submit').addEventListener(click, ()=>{
+document.querySelector("input").addEventListener("submit",()=>{
     const ratinglength=localStorage.length()
     if (ratinglength>0){
         window.Location.href='./thankyou.html'
