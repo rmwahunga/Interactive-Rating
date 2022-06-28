@@ -21,6 +21,7 @@ form{
 h2{
 	color: white;
 	padding-top: 75px;
+	text-align: left; margin-left: 50px;
 }
 p{
 	display: flex;
@@ -36,17 +37,24 @@ button{
 	width: 40PX;
 	height: 40PX;
     border-radius: 20px;
-    background-color: gray;
+    background-color: #383838;
     border: none;
+	margin-inline: ;
+
 }
 button:hover{
     background-color: white;
 }
- button:active{
- 	background-color: orangered;
+
+ 
+button:active{
+	background-color: orangered;
  }
- button:visited{
-	background-color: coral;
+ 
+ button:focus {
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px gray;
  }
 
  input{
@@ -58,14 +66,15 @@ button:hover{
  }
 
  input:hover{
-	color: antiquewhite;
-	background-color: darkgoldenrod;
+	color: orange;
+	background-color: whitesmoke;
  }
  .circletag{
  	width: 30PX;
  	height: 30PX;
  	border-radius: 50%;
- 	background-color: grey;
+ 	background-color: #383838;
+	margin-left: 50px;
  }
  .circletag: img{
  	display: flex-center;
