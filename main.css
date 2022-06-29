@@ -5,8 +5,8 @@ body{
 }
 
  .container{
-    width: 412px;
-    height: 412px;
+    width: 400px;
+    height: 350px;
     margin: auto;
     background-color: #181E27;
     padding: 40px 20px;
@@ -20,7 +20,7 @@ form{
 }
 h2{
 	color: white;
-	padding-top: 75px;
+	padding-top: 30px;
 	text-align: left; margin-left: 50px;
 }
 p{
